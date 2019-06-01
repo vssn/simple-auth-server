@@ -1,0 +1,12 @@
+2019-05-29 01:07:11.819 CEST [28545] LOG:  listening on IPv6 address "::1", port 5432
+2019-05-29 01:07:11.819 CEST [28545] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-05-29 01:07:11.820 CEST [28545] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-05-29 01:07:11.831 CEST [28546] LOG:  database system was shut down at 2019-05-29 01:07:02 CEST
+2019-05-29 01:07:11.834 CEST [28545] LOG:  database system is ready to accept connections
+2019-05-29 01:10:26.374 CEST [28608] FATAL:  lock file "postmaster.pid" already exists
+2019-05-29 01:10:26.374 CEST [28608] HINT:  Is another postmaster (PID 28545) running in data directory "/usr/local/var/postgres"?
+2019-05-29 01:13:03.768 CEST [28545] LOG:  received fast shutdown request
+2019-05-29 01:13:03.769 CEST [28545] LOG:  aborting any active transactions
+2019-05-29 01:13:03.774 CEST [28545] LOG:  background worker "logical replication launcher" (PID 28552) exited with exit code 1
+2019-05-29 01:13:03.774 CEST [28547] LOG:  shutting down
+2019-05-29 01:13:03.778 CEST [28545] LOG:  database system is shut down
