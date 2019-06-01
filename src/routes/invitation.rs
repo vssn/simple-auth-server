@@ -2,7 +2,7 @@ use actix_web::{AsyncResponder, FutureResponse, HttpResponse, Json, ResponseErro
 use futures::future::Future;
 
 use crate::app::AppState;
-use crate::invitation_handler::CreateInvitation;
+use crate::handler::invitation::CreateInvitation;
 
 pub fn register_email(
     (signup_invitation, state): (Json<CreateInvitation>, State<AppState>),

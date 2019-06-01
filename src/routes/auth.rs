@@ -1,6 +1,5 @@
 use crate::app::AppState;
-use crate::auth_handler::AuthData;
-use crate::auth_handler::LoggedUser;
+use crate::handler::auth::{AuthData, LoggedUser};
 use crate::utils::create_token;
 use actix_web::middleware::identity::RequestIdentity;
 use actix_web::{AsyncResponder, FutureResponse, HttpRequest, HttpResponse, Json, ResponseError};

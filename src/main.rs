@@ -19,11 +19,9 @@ extern crate env_logger;
 extern crate jsonwebtoken as jwt;
 
 mod app;
-mod auth_handler;
 mod errors;
-mod invitation_handler;
 mod models;
-mod register_handler;
+mod handler;
 mod routes;
 mod schema;
 mod utils;
