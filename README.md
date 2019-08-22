@@ -12,3 +12,17 @@ initdb /usr/local/var/postgres
 pg_ctl -D /usr/local/var/postgres -l logfile start
 createdb postres_test
 ```
+
+pg_ctl -D /usr/local/var/postgres start
+
+    To stop manually:
+
+pg_ctl -D /usr/local/var/postgres stop
+
+    To start PostgreSQL server now and relaunch at login:
+
+brew services start postgresql
+
+    And stop PostgreSQL:
+
+brew services stop postgresql
