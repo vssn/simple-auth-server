@@ -1,3 +1,5 @@
+Note: this project is deprecated. It is based on a pre-major actix version.
+
 # Simple auth server
 
 Following the tutorial Auth Web Microservice with Rust using actix-web
